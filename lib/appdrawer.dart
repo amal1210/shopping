@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'change_password.dart';
+import 'package:shopping/about.dart';
 import 'settings.dart';
 import 'mycart.dart';
 import 'mypurchases.dart';
@@ -47,7 +47,7 @@ class AppDrawer extends StatelessWidget {
             ListTile(
               leading: Icon(Icons.info,color: Colors.teal),
               title: Text('about'),
-              onTap: () {},
+              onTap: () {Navigator.push(context, MaterialPageRoute(builder: (context)=>about(),));},
             ),
           ],
         ),

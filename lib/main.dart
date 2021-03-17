@@ -11,10 +11,10 @@ class MyApp extends StatelessWidget{
 
   Widget build(BuildContext context){
     return MaterialApp(theme: ThemeData(
-      primaryColor: Colors.teal,
-        accentColor: Colors.teal
-    ),
-      debugShowCheckedModeBanner: false,
+            primaryColor: Colors.teal,
+            accentColor: Colors.teal
+        ),
+        debugShowCheckedModeBanner: false,
       home:Scaffold(
         backgroundColor: Colors.white,
         body:

@@ -16,7 +16,16 @@ class about extends StatelessWidget{
           ),
 
         ),
+       body: Column(
+         children: [
+           ListTile(
+             leading:Icon(Icons.info_outline,color: Colors.black,) ,
+             title: Text('VERSION'),
+             subtitle: Text('1.0'),
+           )
+         ],
 
+),
       ),
 
     );
